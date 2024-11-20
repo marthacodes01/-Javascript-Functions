@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//Reverse a String: Write a function that reverses a given string.
+
+const reverseString = str => [...str].reverse().join('');
+
+console.log(reverseString('ABC'));
+//Count Characters: Create a function that counts the number of characters in a string.
+function countCharacters(inputString) {
+    return inputString.length;
+}
+//Capitalize Words: Implement a function that capitalizes the first letter of each word in a sentence.
+function capitalizeWords(inputString) {
+    return inputString
+        .split(' ')
+        .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+        .join(' ');
+}
+//Find Maximum and Minimum: Write functions to find the maximum and minimum values in an array of numbers.
+//Sum of Array: Create a function that calculates the sum of all elements in an array.
+//Filter Array: Implement a function that filters out elements from an array based on a given condition.
+
+    </script>
+    
+
+
+
+</body>
+</html>
